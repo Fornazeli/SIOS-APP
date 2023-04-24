@@ -1,0 +1,17 @@
+body{
+    background-color: orange;
+}
+
+header{
+    background-color: orangered;
+}
+
+#divBusca{
+    border: solid 1px;
+
+}
+
+#txtBusca{
+    width: 260px;
+    height: 32px;
+}
