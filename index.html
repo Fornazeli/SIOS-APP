@@ -5,20 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIOS</title>
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header> 
-        <div id="header-logo">
-            <img src="img/logo.png" alt="">
+    <header>
+        <div id="header-logo"> 
+            <img src="../img/logotipo.png" alt="Logo SIOS" id="header-logo-img">
         </div>
-    </header>
-    <form action=>
-        <h1>Login</h1>
-        <input type="text" name="input-user" id="input-user">
-        <input type="password" name="input-password" id="input-password">
-        <a href="#">Esqueceu a senha?</a>  
-        <input type="button" value="Entrar">    
-    </form>
+    </header> 
+    <div id="logo">
+        <img src="img/logo.png" alt="Logo SIOS" id="logo-img">
+    </div>
+    <section id="form">
+        <form action="" id="form-form">
+            <h1 id="form-h1">Login</h1>
+            <input type="text" name="input-user" id="input-user" class="input-txt" placeholder="Usuário">
+            <input type="password" name="input-password" id="input-password" class="input-txt" placeholder="Senha">
+            <a href="#" id="form-forgotPass">Esqueceu a senha?</a>  
+            <a href="html/pag-inicial.html" id="form-input-entrar">Entrar</a>  
+        </form>
+    </section>
 </body>
 </html>

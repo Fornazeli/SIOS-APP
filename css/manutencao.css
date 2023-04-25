@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Inter & display=swap');
+:root{
+    --font: 'Lato', sans-serif;
+    --cor0: #F2E7DC;
+    --cor1: #F2B279;
+    --cor2: #F2913D;
+    --cor2-1: #f2913d83;
+    --cor3: #F27405;
+    --cor4: #F25C05;
+    --cor5: #1d1d1d;
+    --cor6: #0F0F39;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: var(--cor5);
+    text-decoration: none;
+}
+body{
+    background-color: var(--cor1);
+}
+#input-txt{
+    padding: 25px;
+
+}
+#input-search{
+    width: 350px;
+    height: 50px;
+    background: none;
+    border: 2px solid var(--cor6);
+    border-radius: 10px;
+}
+#calendario{
+    width: 100%;
+    padding: 30px;
+    max-width: 800px;
+    color: var(--cor5);
+}
+.meses{
+    text-align: center;
+}
+table, th, td{
+    margin: 0 auto;
+    width: 150px;
+    table-layout: fixed;
+    text-align: center;
+    align-items: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border:1px solid black;
+}
+tr, th, td{
+    padding: 15px;
+}
+th{
+    background: var(--cor4);
+    color: white;
+}
+td{
+    background-color: white;
+    color:black;
+}
+td:hover{
+    background: var(--cor2);
+}
+.dom{
+    background-color: var(--cor0);
+}
+.manutencao{
+    background-color: var(--cor3);
+}
+#back{
+    margin: 185px 0 0 25px;
+    display: flex;
+    justify-content: baseline;
+}
+#btn-back{
+    padding: 10px 30px;
+    border: 2px solid var(--cor6);
+    border-radius: 20px;
+    text-align: center;
+}
+#btn-back:hover{
+    background-color: var(--cor3);
+    border: 2px solid var(--cor4);
+}
