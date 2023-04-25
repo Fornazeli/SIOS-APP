@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/rotas.css">
+    <link rel="stylesheet" href="../css/btn-back.css">
     <title>sios-rotas</title>
 </head>
 <body>
-    <p>insira o codigo da rota</p>
-    <input type="text" name="input-rota" id="input-rota">
-    <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-12.977738&lon=-38.501636&ct=livemap" width="600" height="450" allowfullscreen></iframe>
-    <div>
-        <p>Transporte ID:000000</p>
-        <p>Colaborador ID:0000010</p>
-    </div>
-    <div>
-        <p>Transporte ID:000000</p>
-        <p>Colaborador ID:000000</p>
-    </div>
-    <div>
-        <p>Transporte ID:000000</p>
-        <p>Colaborador ID:000000</p>
-    </div>
+    <header>
+        <div id="header-logo"> 
+            <img src="../img/logotipo.png" alt="Logo SIOS" id="header-logo-img">
+        </div>
+    </header>
+    <section>
+        <input type="search" name="input-search" id="input-search" placeholder="Insira o código da rota">
+    </section>
+    <section id="rotas">
+        <section id="rotas-infs">
+            <a href="#" id="rota1" class="rota">
+                Transporte ID:000000 - Colaborador ID:000000
+            </a>
+            <a href="#" id="rota2" class="rota">
+                Transporte ID:000000 - Colaborador ID:000000
+            </a>
+            <a href="#" id="rota3" class="rota">
+                Transporte ID:000000 - Colaborador ID:000000
+            </a>
+        </section>
+        <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-12.951071&lon=-38.452063&ct=livemap" width="850" height="600" allowfullscreen id="map"></iframe>
+    </section>
+    <section id="back">
+        <a href="../html/pag-inicial.html" id="btn-back">Voltar</a>
+    </section>
 </body>
 </html>

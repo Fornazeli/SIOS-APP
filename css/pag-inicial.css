@@ -47,9 +47,18 @@ body{
     align-self: center;
     margin-left: 20px;
 }
-.options-txt-after{
-    opacity: 0%;
+#logout{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
 }
-.options-txt-after:hover{
-    opacity: 100%;
+#btn-logout{
+    padding: 10px 30px;
+    border: 2px solid var(--cor6);
+    border-radius: 20px;
+    text-align: center;
+}
+#btn-logout:hover{
+    background-color: var(--cor3);
+    border: 2px solid var(--cor4);
 }
