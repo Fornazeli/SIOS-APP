@@ -1,1 +1,12 @@
 @charset "UTF-8";
+
+:root{
+    --font: 'Lato', sans-serif;
+    --cor0: #F2E7DC;
+    --cor1: #F2B279;
+    --cor2: #F2913D;
+    --cor2-1: #f2913d83;
+    --cor3: #F27405;
+    --cor4: #F25C05;
+    --cor5: #1d1d1d;
+}
