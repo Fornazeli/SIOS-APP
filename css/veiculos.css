@@ -1,7 +1,6 @@
 body{
     background-color: #f2b279;
 }
-
 header{
     background-color: #F25C05;
     position: absolute;
@@ -9,24 +8,22 @@ header{
     height: 134px;
     left: 0px;
     top: 0px;
-
 }
-
 .logo{
     display: flex;
     justify-content: left;
     margin-left: 40px;
     margin-top: 40px;
 }
-
-#divbusca{
+input{
+    background: none;
     border:solid 3px #0F0F39;
-    border-radius:10px;
-    width: 178px;
+    border-radius:9px;
+    width: 200px;
     margin-top: 180px;
     margin-left: 40px;
-  }
-
+    padding: 3px
+}
 .vei{
     display: flex;
     align-items: center;
@@ -36,21 +33,26 @@ header{
     height:100%;
     margin-top: 100px;
     margin-left: 40px;
-
 }
-
-.Um{
-    width:20%;
-    height:20%;
-    border:solid 3px #0F0F39;
-    
-}
-
-
 button{
     width: 100px;
     height: 40px;
     margin-top: 300px;
     margin-left: 30px;
     font-size: larger;
+}
+.div-img{
+    width: 250px;
+    height: 250px;
+    border:solid 3px #0F0F39;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div-img-img{
+    width: 75%;
+    border-radius: 16px;
 }
