@@ -23,16 +23,20 @@ body{
     background-color: var(--cor1);
 }
 #input-search{
-    width: 350px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     background: none;
     border: 2px solid var(--cor6);
     border-radius: 10px;
     margin: 30px 0 0 30px;
 }
+#input-search::-webkit-input-placeholder{
+    opacity: 40%;
+    color: #0F0F39;
+}
 #rotas{
     display: flex;
-    margin: 100px 0 0 30px;
+    margin: 30px 0 0 30px;
 }
 #rotas-infs{
     display: flex;
@@ -44,4 +48,10 @@ body{
     border: 2px solid var(--cor6);
     border-radius: 20px;
     margin-bottom: 20px;
+}
+.rota:hover{
+    transition: 100ms ease-in-out;
+    transform: scale(1.05);
+    border: 2px solid var(--cor3);
+    border-radius: 10px;
 }

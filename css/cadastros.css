@@ -19,18 +19,37 @@
     color: var(--cor5);
     text-decoration: none;
 }
-#back{
-    position: fixed;
-    bottom: 40px;
-    left: 30px;
+body{
+    background-color: var(--cor1);
 }
-#btn-back{
-    padding: 10px 30px;
+#opcoes-h1{
+    font-weight: normal;
+    margin: 80px 0 20px 0;
+}
+#opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcoes-opt{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 30px;
     border: 2px solid var(--cor6);
     border-radius: 20px;
-    text-align: center;
 }
-#btn-back:hover{
-    background-color: var(--cor3);
+.opcoes-opt:hover{
     border: 2px solid var(--cor4);
+    transform: scale(1.05);
+    transition: 100ms ease-in-out;
+}
+.fa-solid{
+    color: var(--cor2);
+    font-size: 60px;
+}
+.options-txt{
+    align-self: center;
+    margin-left: 20px;
 }
