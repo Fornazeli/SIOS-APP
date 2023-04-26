@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veículos</title>
+    <link rel="stylesheet" href="../css/btn-back.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/veiculos.css">
+</head>
+<body>
+    <header>
+        <div id="header-logo"> 
+            <img src="../img/logotipo.png" alt="Logo SIOS" id="header-logo-img">
+        </div>
+    </header>
+    <div id="divbusca">
+        <input type="text" id="txtBusca" placeholder="Pesquisar Veículo"/>
+    </div>
+    <div class="vei">
+        <a href="veiculos-perfil.html" class="div-img">
+            <img class="div-img-img" src="../img/veiculos/col0.jpg" alt="Optimus Prime">
+            <p1><b>ID: 0000</b></p1>
+        </a>
+        <a href="#" class="div-img">
+            <img class="div-img-img" src="../img/veiculos/col1.jpg" alt="Mack">
+            <p1><b>ID: 0001</b></p1>
+        </a>
+        <a href="#" class="div-img">
+            <img class="div-img-img" src="../img/veiculos/col2.jpg" alt="Veículo 2">
+            <p1><b>ID: 0002</b></p1>
+        </a>
+        <a href="#" class="div-img">
+            <img class="div-img-img" src="../img/veiculos/col3.jpg" alt="Veículo 3">
+            <p1> <b>ID: 0003</b> </p1>
+        </a>
+    </div>
+    <section id="back">
+        <a href="../html/cadastros.html" id="btn-back">Voltar</a>
+    </section>
+</body>
+</html>
