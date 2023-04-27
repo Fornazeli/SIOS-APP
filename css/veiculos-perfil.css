@@ -47,6 +47,6 @@ p{
     color: var(--cor6);
     font-family: 'Inter', sans-serif;
 }
-a{
+#manutencao{
     text-decoration: underline;
 }

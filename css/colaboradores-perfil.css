@@ -39,6 +39,10 @@ body{
     border-radius: 8px;
     margin-left: 50px;
 }
+#div-img-txt{
+    display: flex;
+    flex-direction: column;
+}
 .push{
     margin-left: 30px;
     font-size: 45px;
@@ -46,7 +50,4 @@ body{
 p{
     color: var(--cor6);
     font-family: 'Inter', sans-serif;
-}
-a{
-    text-decoration: underline;
 }
