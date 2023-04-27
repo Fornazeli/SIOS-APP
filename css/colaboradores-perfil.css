@@ -32,7 +32,7 @@ body{
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 200px;
+    margin: 100px 20px;
 }
 .div-img-img{
     width: 390px;
